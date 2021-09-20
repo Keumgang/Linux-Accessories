@@ -1,0 +1,5 @@
+sudo dnf update -y
+cp /etc/passwd centos8-users.txt
+cp /etc/group centos8-group.txt
+dnf list installed > centos8-packages.txt
+./check-diff rebaseline-diff
