@@ -1,4 +1,4 @@
-##Note - this file contains manual instructions that are not 'drag and drop'
+##Note - this file contains manual instructions that are not 'drag and drop' and require su/wheel access to the server
 
 #create script
 vi rebaseline
